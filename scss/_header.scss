@@ -1,0 +1,39 @@
+.header {
+    border-bottom: 4px solid #3596F5;
+    background-color: #635854;
+    padding: 12px 0;
+    color: #fff;
+}
+
+.navbar {
+    max-width: 1278px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    &-menu {
+        display: flex;
+        justify-content: space-between;
+    }
+    &-item {
+        padding: 0 16px;
+        text-align: center;
+        &:not(:last-of-type) {
+            margin-right: 40px;
+        }
+    }
+    &-contacts {
+        text-align: right;
+        a {
+            font-size: 17px;
+            font-weight: 700;
+        }
+    }
+    &-text {
+        display: block;
+        margin-bottom: 3px;
+        font-size: 14px;
+    }
+}
