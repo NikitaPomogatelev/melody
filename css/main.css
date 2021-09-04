@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -80,6 +81,7 @@ button {
 .navbar {
   max-width: 1280px;
   margin: 0 auto;
+  padding: 0 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -337,5 +339,19 @@ path.current-floor {
 
 .flats path:hover {
   opacity: 1;
+}
+
+.flat-link.current-flats-item {
+  color: #3596f5;
+  /* меняем цвет */
+  text-decoration: underline;
+  /* добавляем подчёркивание */
+  cursor: pointer;
+  /* сделали, чтобы при наведении на path была рука :D */
+}
+
+path.current-flats {
+  opacity: 1;
+  /* убираем прозрачность */
 }
 /*# sourceMappingURL=main.css.map */

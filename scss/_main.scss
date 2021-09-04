@@ -154,3 +154,13 @@ path.current-floor {
 .flats path:hover {
     opacity: 1;
 }
+
+.flat-link.current-flats-item {
+    color: #3596f5; /* меняем цвет */
+    text-decoration: underline; /* добавляем подчёркивание */
+    cursor: pointer; /* сделали, чтобы при наведении на path была рука :D */
+  }
+  
+path.current-flats {
+    opacity: 1; /* убираем прозрачность */
+}
